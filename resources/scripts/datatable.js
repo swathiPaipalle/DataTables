@@ -24,7 +24,7 @@ function drawDataTable(tableJson) {
         "colResize": {
             "tableWidthFixed": false
         },
-        // searching: true,
+        searching: true,
         scrollY:        "300px",
         scrollX:        true,
         scrollCollapse: true,
@@ -34,7 +34,7 @@ function drawDataTable(tableJson) {
         //serverSide: true,
         bAutoWidth: false,
         ajax: {
-            url: '../static/resources/dynamic/gridData.json',
+            url: 'resources/dynamic/gridData.json',
             contentType: "application/json",
             dataSrc: 'reportData',
             type: "GET",
@@ -126,7 +126,7 @@ function drawDataTable(tableJson) {
 jQuery(document).ready(function() {
 
     jQuery.ajax({
-		url: "../static/resources/dynamic/gridMeta.json",
+		url: "resources/dynamic/gridMeta.json",
 		type: "GET",
 		async: false,
 		dataType: "json",
@@ -168,7 +168,7 @@ jQuery(document).ready(function() {
                 }
 
             });
-console.log(columnDataArray);
+
             jQuery("#WorkbenchGrid").empty();
             jQuery("#WorkbenchGrid").append('<table id="displayTable" class="display" cellspacing="0" width="100%"><thead><tr id="filter" style="display: none;">' + tableHeaders + '</tr><tr id="sort">' + tableHeaders + '</tr></thead></table>');
 
