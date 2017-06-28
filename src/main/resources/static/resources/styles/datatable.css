@@ -1,0 +1,91 @@
+td.details-control {
+    background: url('../images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../images/details_close.png') no-repeat center center;
+}
+
+tfoot input {
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+td.nadirBad {
+    background-color : #ffffc7;
+}
+
+td.highlightEmpty {
+    font-weight: bold;
+    color: blue;
+}
+
+td.nadirEmpty {
+    background-color : #FFCC99;
+}
+
+td.highlightBad {
+    font-weight: bold;
+    color: darkred;
+}
+
+
+.headerAction {
+    font-size: 10px;
+    color: black;
+    margin-left: 4px;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    cursor: default;
+    z-index:99999999999999 !important;
+}
+
+.dtHeightSet {
+    max-height: 72px;
+}
+
+.openLink
+{
+    color: #8B0000;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.showPopUp {
+    transition:0s 2s;
+}
+
+.showPopUp .hover1 {
+    position:absolute;
+    opacity:0;
+    transition:0s 2s;
+}
+
+.showPopUp:hover .hover1 {
+    opacity:1;
+    transition:0s;
+}
+
+.showDiff
+{
+    border-left: 1px solid #cdd0d4;
+    background-color: rgba(167, 199, 221, 0.67);
+    color: #000000;
+    font-size: medium;
+}
+
+.showNoDiff
+{
+    border-left: 1px solid #cdd0d4;
+    font-size: 0.65em;
+    color: #636363;
+}
+#filter th:first-child{
+    width: 0!important;
+}

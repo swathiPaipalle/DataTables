@@ -1,0 +1,90 @@
+{
+  "fieldGroup": [
+    {
+      "id": "Id",
+      "title": "Id",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Name",
+      "title": "Name",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Position",
+      "title": "Position",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Office",
+      "title": "Office",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Extn",
+      "title": "Extn",
+      "type": "String",
+      "hide": true
+    },
+    {
+      "id": "StartDate",
+      "title": "Start date",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Salary",
+      "title": "Salary",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Email",
+      "title": "Email",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Email2",
+      "title": "Email2",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Email3",
+      "title": "Email3",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Email4",
+      "title": "Email4",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Email5",
+      "title": "Email5",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Email6",
+      "title": "Email6",
+      "type": "String",
+      "hide": false
+    },
+    {
+      "id": "Email7",
+      "title": "Email7",
+      "type": "String",
+      "hide": false
+    }
+  ],
+  "aLengthMenu": [[ 10, 50, 100, 500], [ 10, 50, 100, 500]],
+  "fixedColumn": 2
+}
